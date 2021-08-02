@@ -4,7 +4,62 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Netflix | Landing Page UI Design</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css"
+      integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/652492fb96.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <header>
+      <a href="#" class="logo"><img src="./img/logo.png" /></a>
+      <ul class="navigation">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">TV Shows</a></li>
+        <li><a href="#">Movies</a></li>
+        <li><a href="#">Latest</a></li>
+        <li><a href="#">My List</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" placeholder="Search" />
+        <i class="fa fa-search" aria-hidden="true"></i>
+      </div>
+    </header>
+
+    <div class="banner">
+      <img src="./img/bg.jpg" class="bg" />
+      <div class="content">
+        <img src="./img/name.png" class="movieTitle" />
+        <h4>
+          <span>2020</span>
+          <span><i>12+</i></span>
+          <span>1h 55min</span>
+          <span>Action</span>
+        </h4>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore
+          consequatur, quidem rerum accusamus blanditiis ducimus aperiam placeat
+          suscipit magni explicabo, corporis quod eius, voluptates ullam
+          reiciendis voluptatem dolorem maiores esse!
+        </p>
+        <div class="buttons">
+          <a href="#"><i class="fa fa-play" aria-hidden="true"></i> Play</a>
+          <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My list</a>
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./landing.js"></script>
+  </body>
 </html>
