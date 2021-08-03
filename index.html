@@ -58,8 +58,16 @@
           <a href="#"><i class="fa fa-plus" aria-hidden="true"></i> My list</a>
         </div>
       </div>
+      <a class="play" onclick="toggleVideo();"
+        ><img src="./img/play.png" />Watch Trailer</a
+      >
     </div>
 
-    <script type="text/javascript" src="./landing.js"></script>
+    <div class="trailer">
+      <video src="./img/video.mp4" controls="true"></video>
+      <img src="./img/close.png" class="close" onclick="toggleVideo();" />
+    </div>
+
+    <script type="text/javascript" src="./video.js"></script>
   </body>
 </html>
